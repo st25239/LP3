@@ -1,0 +1,127 @@
+*{
+
+    box-sizing: border-box;
+    font-family:'fire Sans' ,sans-serif;
+
+
+} 
+.app{
+   display:  flex;
+   min-height: 100vh;
+}
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+    overflow-x: hidden;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.sidebar a:hover {
+    background-color: #385930;
+}
+.content h1 {
+    color: gray;
+    font-size: large;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.content p {
+    color: black;
+    align-items: center;
+    align-items: top;
+    size: 20px;
+}
+Header li{
+    display: inline-block;
+    margin: 20px;
+ font-size: large;
+ font-weight: bold;
+}
+Header a {
+text-decoration: none;
+color: white;
+}
+.content {
+    color: black;
+}
+.box {
+    align-items: end;
+}
+
+body {
+    margin-left: 250px;
+}
+img {
+    width: 20%;
+    height: 30%;
+    margin-left: 160px;
+    padding: 20px;
+    border-radius: 100px;
+}
+.grid-container{
+    padding-bottom: 1px; /* Reduce existing padding */
+    align-items: top;
+} 
+
+.content {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(4, 1fr);
+}
+
+
+
+
+
+
+/*.chess-info {
+    grid-column-start: 1 / 3;    
+    grid-row-start: 1 / 2 ;
+    size: 10;
+}   
+
+.grid-pawn {
+    grid-column-start: 1 / 2;    
+    grid-row-start: 2 / 3 ;
+}
+
+.grid-bishop {
+    grid-column-start: 2 / 3;    
+    grid-row-start: 2 / 3 ; 
+}
+
+.grid-knight {
+    grid-column-start: 1 / 2;    
+    grid-row-start: 3 / 4 ;  
+}
+
+.grid-rook {
+    grid-column-start: 2 / 3;    
+    grid-row-start: 3 / 4 ;  
+}
+
+.grid-queen {
+    grid-column-start: 1 / 2;    
+    grid-row-start: 4 / 5 ;  
+}
+
+.grid-king {
+    grid-column-start: 2 / 3;    
+    grid-row-start: 4 / 5 ; 
+}
+*/
+    
